@@ -6,7 +6,7 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "${workername}.${username}.workers.dev/": "https://registry-1.docker.io",
+  "cloudflare-docker-proxy.hanxi-info.workers.dev": "https://registry-1.docker.io",
 };
 
 function routeByHosts(host) {
